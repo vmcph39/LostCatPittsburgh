@@ -28,6 +28,7 @@ Bootstrap
 JQuery
 Javascript CRUD
 
+
 Wireframes
 (Just starting to figure this out) 
 Using Lucid Chart- Wireframes 
@@ -35,10 +36,13 @@ Using Lucid Chart- Wireframes
 
 Things to do
 ERM Diagram, did wireframe diagram- complete
+
 Scope to stick to
 Try to finish features and branch when we get to Spring Boot- incomplete
+
 Sort - completed 
-View One read, write, delete update, cat - completed 
+
+View Five read, write, delete update, cat - completed 
 
 
 
