@@ -42,7 +42,7 @@ Try to finish features and branch when we get to Spring Boot- incomplete
 
 Sort - completed 
 
-View Five read, write, delete update, cat - completed 
+View Five create, read, update, delete, cat - completed 
 
 
 
