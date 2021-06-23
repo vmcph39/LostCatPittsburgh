@@ -1,5 +1,5 @@
 # LostCatPittsburgh
-CRUD for LCP
+
 Lost Cat Pet CRUD 
 Practical Questions
 What is this presentation about and what problem does it solve? 
