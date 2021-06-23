@@ -11,14 +11,7 @@ Website with CRUD application to look for lost local Pittsburgh cat.
 The high level goal for this app is to help connect the user with a place where they can create, read, update and delete lost cats.
 
 
-USER STORIES- CREATE, READ, UPDATE, DELETE 
-The user will be able to create a lost cat profile.
-The user will be able to access and read the contact information of the person that lost the cat.
-The user will be able to save or update the cats profile they have viewed to track them.
-The user will be able to delete found cats. Success!  
-
 Technologies used
-CRUD 
 MySQL /MariaDB
 Springboot 
 Java (possibly, some type of backend coding to help with lost cat results)
@@ -36,11 +29,10 @@ Using Lucid Chart- Wireframes
 
 Things to do
 ERM Diagram, did wireframe diagram- complete
+Database ERM- not complete
 
 Scope to stick to
 Try to finish features and branch when we get to Spring Boot- incomplete
-
-Sort - completed 
 
 View Five create, read, update, delete, cat - completed 
 
