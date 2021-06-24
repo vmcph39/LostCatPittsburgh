@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lost Cat Pittsburgh</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        img {
+            max-width: 100%
+        }
+        .image {
+            flex-basis: 70%
+        }
+        .text {
+            font-size: 20px;
+            font-family: "Franklin Gothic Book";
+            padding-left: 20px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet"/>
+    <link href="../css/mystyles.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" th:href="@{/}">Lost Cat Pittsburgh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" th:href="@{/}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" a href="index2.html">Create Lost Cat Profile</a></li>
+                <li class="nav-item"><a class="nav-link" a href="registertips.html">7 Tips On Finding Lost Cat</a></li>
+                <li class="nav-item"><a class="nav-link" a href="https://www.facebook.com/groups/323826539285541">FaceBook Page</a></li>
+                <li class="nav-item"><a class="nav-link" a href="registercat.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" th:href="@{/logout}">Logout</a></li>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<br>
+<div class="container">
+    <div class="image">
+        <img src="giphy.gif">
+    </div>
+    <div class="text">
+        <p>Welcome to Lost Cat Pittsburgh. This site is dedicated to finding lost cats in the tri state Pittsburgh, PA area.  I have included links below to other sites that will help you find your lost beloved pet and bring them home safely.<p><a href="https://www.petfinder.com/cats/lost-and-found-cats/">Pet Finder Lost and Found</a></p>
+        <p><a href="https://www.tabbytracker.com/">Tabby Tracker</a></p>
+        <p><a href="https://www.pawboost.com/">PawBoost</a></p>
+        <div>
+            <h1></h1><a href= "mailto: theredshoes33@gmail.com?subject=Web Page Email&body=This email
+is from your website" >
+            Email Me</h1></a>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="../js/scripts.js"></script>
+</body>
+</html>
